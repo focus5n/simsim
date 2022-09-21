@@ -1,2 +1,7 @@
-package exception;public interface InputException {
+package exception;
+
+public interface Watcher {
+
+    String message(String message);
+
 }
